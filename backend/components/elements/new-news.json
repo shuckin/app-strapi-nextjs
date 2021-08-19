@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_elements_new_news",
+  "info": {
+    "name": "New News",
+    "icon": "equals"
+  },
+  "options": {},
+  "attributes": {
+    "News": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.news"
+    }
+  }
+}

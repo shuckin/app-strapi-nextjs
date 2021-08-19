@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_news",
+  "info": {
+    "name": "News",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.seo"
+    },
+    "newsList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.news"
+    }
+  }
+}
